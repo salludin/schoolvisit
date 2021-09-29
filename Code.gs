@@ -2,8 +2,10 @@ function myFunction(e) {
 var sheet = SpreadsheetApp.getActiveSheet();
 var row =  SpreadsheetApp.getActiveSheet().getLastRow();
 var name = e.values[1];
+
 var emaillowercase = e.values[3];
 var email = emaillowercase.toLowerCase(); 
+
 var currentzip = e.values[4];
 var Time = e.values[9];
 var StartDate = e.values[8];
